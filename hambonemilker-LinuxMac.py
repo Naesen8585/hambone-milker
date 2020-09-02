@@ -21,7 +21,7 @@ browser_options = Options()
 #chrome_options.add_argument('--headless')
 width=1920
 height=1080
-browser_options.add_argument(f'window-size={width}x{height}')
+browser_options.add_argument('window-size={width}x{height}')
 #'/usr/local/bin/chromedriver',
 driver = webdriver.Chrome(
          options=browser_options
